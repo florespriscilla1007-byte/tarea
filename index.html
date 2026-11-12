@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FrostBloom</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#inicio" class="logo">
+            Frost<span>Bloom</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#productos">Productos</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button id="temaBtn" class="tema-btn" title="Cambiar tema">
+            🌙
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-texto">
+
+                <p class="etiqueta">✨ HECHO ESPECIALMENTE PARA TI ✨</p>
+
+                <h1>
+                    Tu estilo,
+                    <span>tu vaso.</span>
+                </h1>
+
+                <p>
+                    Bienvenido a FrostBloom, un emprendimiento dedicado
+                    a crear vasos personalizados únicos para expresar
+                    tu personalidad.
+                </p>
+
+                <div class="hero-botones">
+                    <a href="#productos" class="btn principal">
+                        Ver productos
+                    </a>
+
+                    <a href="#contacto" class="btn secundario">
+                        Contáctanos
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-imagen">
+                <img src="imagenes/vasos.jpeg"
+                     alt="Vaso personalizado FrostBloom">
+            </div>
+
+        </section>
+
+        <section id="nosotros" class="seccion nosotros">
+
+            <div class="titulo">
+                <p>CONÓCENOS</p>
+                <h2>Sobre <span>FrostBloom</span></h2>
+            </div>
+
+            <div class="nosotros-grid">
+
+                <div class="historia">
+
+                    <h3>Nuestra historia</h3>
+
+                    <p>
+                        Frost Bloom nació con la idea de crear un emprendimiento diferente y creativo, enfocado en vasos Snow Globe personalizados. 
+                        La idea surgió al observar que muchas personas buscan productos originales que puedan personalizar según sus gustos y personalidad.
+                        A partir de esa idea, comenzamos a pensar en diseños, colores y diferentes formas de hacer que cada vaso fuera especial. 
+                        Así nació Frost Bloom, con el propósito de ofrecer vasos bonitos, creativos y personalizados que también puedan ser una excelente 
+                        opción para regalar. Desde sus inicios, el emprendimiento se ha enfocado en la creatividad, la dedicación y la satisfacción de los clientes,
+                        buscando crecer poco a poco y convertir a Frost Bloom en una marca reconocida por sus diseños únicos
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+                    <h3>Misión</h3>
+                    <p>
+                        Crear vasos personalizados de calidad que permitan
+                        a nuestros clientes expresar su personalidad y
+                        disfrutar de productos únicos.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Visión</h3>
+                    <p>
+                        Ser un emprendimiento reconocido en Costa Rica
+                        por nuestra creatividad, calidad y atención
+                        personalizada.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="valores">
+
+                <h3>Nuestros valores</h3>
+
+                <div class="valores-grid">
+
+                    <div class="valor">
+                        <span>💖</span>
+                        <h4>Creatividad</h4>
+                        <p>Diseños originales y personalizados.</p>
+                    </div>
+
+                    <div class="valor">
+                        <span>⭐</span>
+                        <h4>Calidad</h4>
+                        <p>Cuidamos cada detalle de nuestros productos.</p>
+                    </div>
+
+                    <div class="valor">
+                        <span>🤝</span>
+                        <h4>Compromiso</h4>
+                        <p>Nos esforzamos por satisfacer a nuestros clientes.</p>
+                    </div>
+
+                    <div class="valor">
+                        <span>🌷</span>
+                        <h4>Creatividad</h4>
+                        <p>Cada vaso puede ser diferente y especial.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="productos" class="seccion productos">
+
+            <div class="titulo">
+                <p>NUESTROS DISEÑOS</p>
+                <h2>Productos <span>FrostBloom</span></h2>
+            </div>
+
+            <div class="carrusel">
+
+                <button class="flecha izquierda" id="prevBtn">
+                    ❮
+                </button>
+
+                <div class="producto-slider" id="productoSlider">
+
+                    <article class="producto">
+                        <img src="imagenes/rapunzel.jpeg"
+                             alt="Vaso personalizado de princesas">
+
+                        <div class="producto-info">
+                            <h3>Vaso Princesas</h3>
+                            <p>
+                                Diseño inspirado en princesas y cuentos
+                                favoritos.
+                            </p>
+                            <strong>₡7.000</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="producto">
+                        <img src="imagenes/blanca.jpeg"
+                             alt="Vaso personalizado de princesas">
+
+                        <div class="producto-info">
+                            <h3>Vaso Princesas</h3>
+                            <p>
+                                Personalizado con tus personajes favoritos
+                                de Disney.
+                            </p>
+                            <strong>₡7.000</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="producto">
+                        <img src="imagenes/bella.jpeg"
+                             alt="Vaso personalizado de princesas">
+
+                        <div class="producto-info">
+                            <h3>Vaso de Princesas</h3>
+                            <p>
+                                Diseños de una princesa con un estilo único.
+                            </p>
+                            <strong>₡7.000</strong>
+                        </div>
+                    </article>
+
+                </div>
+
+                <button class="flecha derecha" id="nextBtn">
+                    ❯
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="galeria" class="seccion galeria">
+
+            <div class="titulo">
+                <p>NUESTRO TRABAJO</p>
+                <h2>Galería <span>FrostBloom</span></h2>
+            </div>
+
+            <div class="galeria-grid">
+
+                <div class="foto">
+                    <img src="imagenes/rapunzel.jpeg" alt="Vaso personalizado">
+                </div>
+
+                <div class="foto">
+                    <img src="imagenes/blanca.jpeg" alt="Vaso personalizado">
+                </div>
+
+                <div class="foto">
+                    <img src="imagenes/bella.jpeg" alt="Vaso personalizado">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Modal de galería -->
+        <div class="modal" id="modal">
+
+            <button class="cerrar" id="cerrarModal">
+                ×
+            </button>
+
+            <img id="imagenModal" src="" alt="Imagen ampliada">
+
+        </div>
+
+
+        <section class="seccion faq">
+
+            <div class="titulo">
+                <p>¿TIENES DUDAS?</p>
+                <h2>Preguntas <span>frecuentes</span></h2>
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+                    <button>
+                        ¿Puedo elegir mi propio diseño?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            ¡Sí! Puedes elegir colores, nombres, personajes,
+                            frases y otros elementos para personalizar tu vaso.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pregunta">
+                    <button>
+                        ¿Cuánto tarda un pedido?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            El tiempo depende del diseño y la cantidad
+                            solicitada. Puedes consultarnos antes de realizar
+                            tu pedido.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pregunta">
+                    <button>
+                        ¿Puedo pedir un diseño que no aparece?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Sí. Puedes enviarnos tu idea y nosotros podemos
+                            crear una propuesta personalizada.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto" class="seccion contacto">
+
+            <div class="titulo">
+                <p>HABLEMOS</p>
+                <h2>Contáctate con <span>nosotros</span></h2>
+            </div>
+
+            <div class="contacto-grid">
+
+                <div class="datos-contacto">
+
+                    <h3>Información de contacto</h3>
+
+                    <div class="dato">
+                        <span>📞</span>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>61384373</p>
+                        </div>
+                    </div>
+
+                    <div class="dato">
+                        <span>💬</span>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>61384373</p>
+                        </div>
+                    </div>
+
+                    <div class="dato">
+                        <span>📧</span>
+                        <div>
+                            <h4>Correo</h4>
+                            <p>valentinamasis4@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="dato">
+                        <span>📍</span>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Barrio Corazón de Jesús, la Uruca</p>
+                        </div>
+                    </div>
+
+                    <div class="redes">
+
+                        <a href="#" aria-label="Instagram">
+                            Instagram: frost.bloom12
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <form id="formulario" class="formulario">
+
+                    <h3>Envíanos un mensaje</h3>
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            placeholder="Escribe tu nombre"
+                        >
+
+                        <small id="errorNombre"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="correo">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            placeholder="ejemplo@gmail.com"
+                        >
+
+                        <small id="errorCorreo"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            rows="5"
+                            placeholder="Escribe tu mensaje..."
+                        ></textarea>
+
+                        <small id="errorMensaje"></small>
+
+                    </div>
+
+                    <button type="submit" class="btn principal">
+                        Enviar mensaje
+                    </button>
+
+                    <p id="mensajeExito"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            Frost<span>Bloom</span>
+        </div>
+
+        <p>
+            Vasos personalizados hechos especialmente para ti. 
+        </p>
+
+        <p class="copyright">
+            © 2026 FrostBloom. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- Botón volver arriba -->
+    <button id="arribaBtn" class="arriba-btn">
+        ↑
+    </button>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
